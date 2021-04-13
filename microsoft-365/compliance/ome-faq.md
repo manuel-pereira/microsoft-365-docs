@@ -201,7 +201,7 @@ There are currently two known limitations:
 
 - You can't open attachments to emails that you receive on mobile devices by using Outlook mobile.
 
-- We don't support assignment through an email enabled security group. We only support access provided by direct user assignment to the shared mailbox and that automapping is enabled for Exchange Online. Automapping is enabled by default for Exchange Online.
+- We don't support assignment through an email enabled security group or Distribution Group. Users can open encrypted messages as long as they are given direct access and automapping is turned ON.
 
 **To assign a user to the shared mailbox**
 
@@ -215,7 +215,7 @@ There are currently two known limitations:
 
 ## Can I open encrypted messages sent to another user's mailbox with Fullaccess?
 
-Users can open encrypted messages as long as they are given direct access and automapping is turned ON. Access is not allowed if the access is granted via an email-enabled security group.
+As stated previously on "Is delegated access supported?" topic of the current page, although this work currently via OWA only, delegate mailbox scenarios are not supported. 
 
 ## What do I do if I don’t receive the one-time pass code after I requested it?
 
